@@ -1,2 +1,2 @@
-# fem-advanced-jS
+# fem-advanced-js
 https://frontendmasters.com/courses/advanced-javascript
