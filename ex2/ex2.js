@@ -77,7 +77,7 @@ var NotesManager = (function() {
 	}
 
 	function init(opts) {
-		var $notes = $(opts.notes);
+		var $notes = $(opts.notes); // can do this for all dom refs
 
 		// build the initial list from the existing `notes` data
 		var html = "";
@@ -122,6 +122,6 @@ $(document).ready(function(){
 	// still confused as to why this has to be wrapped in a function
 	NotesManager.init({
 		// query elements here
-		notes: "#notes"
+		notes: "#notes" // can do this for all dom refs
 	})
 });
